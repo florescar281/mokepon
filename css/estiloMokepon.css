@@ -1,0 +1,219 @@
+body {
+    background-image: url(https://w0.peakpx.com/wallpaper/823/328/HD-wallpaper-dragon-fire-animals-games.jpg);
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+}
+#Elige_mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    background-color: #bd4d0b;
+    height: 620px;
+    border: 6px solid brown;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 40px;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-mascota{
+    background-color: #db1f01;
+    height: 65px;
+    width: 140px;
+    margin: 20px;
+    padding: 5px;
+    border: 3px solid beige;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection-mascota img {
+    width: 50px;
+    height: 70px;
+}
+
+.inputs-mascotas{
+    display: none;
+}
+
+input:checked + label {
+    background-color: darkgoldenrod;
+}
+
+#EleccionMascota {
+    box-sizing: border-box;
+    border: 4px solid rosybrown;
+    height: 50px;
+    width: 200px;
+    color: rosybrown;
+    background-color: firebrick;
+    font-family: fantasy;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+h1 {
+    width: 280px;
+    font-size: 2.2em;
+    -webkit-text-stroke: 1px black;
+    color: wheat;
+}
+
+h2 {
+    width: 280px;
+    font-size: 2.2em;
+    -webkit-text-stroke: 1px black;
+    color: wheat;
+}
+
+#seleciona_ataque {
+    flex-direction: column;
+    color: wheat;
+    background-color: #bd4d0b;
+    border: 6px solid brown;
+    padding: 5px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+#seleccionaAtaque {
+    display: flex;
+    flex-direction: row;
+}
+
+.boton_ataque {
+    background-color: #db1f01;
+    height: 50px;
+    width: 80px;
+    margin: 2px;
+    padding: 5px;
+    border: 3px solid beige;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: fantasy;
+    color: wheat;
+}
+
+#resultado {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgoldenrod;
+    height: 24px;
+    width: 164px;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid beige;
+    border-radius: 20px;
+}
+
+#mensajes {
+    display: grid;
+    grid-template-columns: 172px 257px;
+    justify-items: center;
+}
+
+#Reiniciar {
+    background-color: #db1f01;
+    height: 50px;
+    width: 132px;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid beige;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: fantasy;
+    color: wheat;
+}
+
+#MundoDeJuego {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    background-color: #bd4d0b;
+    height: 620px;
+    border: 6px solid brown;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#botones_laterales {
+    display: grid;
+    grid-template-columns: 172px 257px;
+}
+
+.Botones_direccionales{
+    background-color: #db1f01;
+    height: 50px;
+    width: 80px;
+    margin: 2px;
+    padding: 5px;
+    border: 3px solid beige;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: fantasy;
+    color: wheat;
+}
+
+#Laterales {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Mapa {
+    border: 3px solid brown;
+}
+
+@media (max-width: 400px) {
+    body{
+        margin: 0px;
+    }
+    
+    #Elige_mascota {
+        margin: 0px;
+        height: 720px
+    }
+
+    #seleciona_ataque {
+        margin: 0px;
+        flex-direction: column;
+        height: 1160px
+    }
+
+    #seleccionaAtaque {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mensajes {
+        grid-template-columns: 180px 180px;
+    }
+
+    #reiniciarJuego {
+        margin: 0px;
+        height: 720px
+    }
+
+    #MundoDeJuego {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+}
